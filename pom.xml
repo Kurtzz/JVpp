@@ -7,6 +7,7 @@
     <groupId>pl.edu.agh</groupId>
     <artifactId>JVpp</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -18,6 +19,16 @@
             <groupId>io.fd.vpp</groupId>
             <artifactId>jvpp-registry</artifactId>
             <version>17.07</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.11.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>4.3.11.RELEASE</version>
         </dependency>
     </dependencies>
 
